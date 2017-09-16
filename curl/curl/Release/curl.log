@@ -1,0 +1,15 @@
+﻿Build started 16-09-2017 14:17:59.
+     1>Project "G:\Git\Viru\curl\curl\curl.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Git\Viru\curl\Release\curl.exe" /NOLOGO /LIBPATH:G:\Git\Viru\curl\curl\libcurl\lib\ libcurl/lib/libcurl_a.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\Git\Viru\curl\Release\curl.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Git\Viru\curl\Release\curl.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+     1>main.obj : error LNK2001: unresolved external symbol _curl_easy_setopt
+     1>main.obj : error LNK2001: unresolved external symbol _curl_easy_perform
+     1>main.obj : error LNK2001: unresolved external symbol _curl_easy_strerror
+     1>main.obj : error LNK2001: unresolved external symbol _curl_easy_cleanup
+     1>main.obj : error LNK2001: unresolved external symbol _curl_easy_init
+     1>G:\Git\Viru\curl\Release\curl.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "G:\Git\Viru\curl\curl\curl.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.38

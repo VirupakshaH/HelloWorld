@@ -1,0 +1,42 @@
+﻿Build started 16-09-2017 13:06:53.
+     1>Project "G:\Git\Viru\curl\curl\curl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D CURL_STATICLIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Git\Viru\curl\x64\Release\curl.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Git\Viru\curl\x64\Release\curl.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Git\Viru\curl\x64\Release\curl.lib" /MACHINE:X64 x64\Release\main.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libcurl_a.lib(formdata.obj) : error LNK2001: unresolved external symbol __acrt_iob_func
+     1>libcurl_a.lib(cookie.obj) : error LNK2001: unresolved external symbol __acrt_iob_func
+     1>libcurl_a.lib(url.obj) : error LNK2001: unresolved external symbol __acrt_iob_func
+     1>libcurl_a.lib(mprintf.obj) : error LNK2001: unresolved external symbol __acrt_iob_func
+     1>libcurl_a.lib(idn_win32.obj) : error LNK2001: unresolved external symbol __acrt_iob_func
+     1>libcurl_a.lib(imap.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(telnet.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(socks.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(http_proxy.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(transfer.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(parsedate.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(ftp.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(rtsp.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(cookie.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(hostip.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(url.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(http.obj) : error LNK2001: unresolved external symbol __stdio_common_vsscanf
+     1>libcurl_a.lib(imap.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(http_proxy.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(http_chunks.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(ftplistparser.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(cookie.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(http.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(ftp.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(file.obj) : error LNK2001: unresolved external symbol strtoll
+     1>libcurl_a.lib(mprintf.obj) : error LNK2001: unresolved external symbol __stdio_common_vsprintf
+     1>libcurl_a.lib(idn_win32.obj) : error LNK2001: unresolved external symbol __stdio_common_vfwprintf
+     1>G:\Git\Viru\curl\x64\Release\curl.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "G:\Git\Viru\curl\curl\curl.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.02
